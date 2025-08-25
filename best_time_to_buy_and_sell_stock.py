@@ -16,7 +16,7 @@ class Solution:
 
         ###REVISION
         cp=float('inf')#cost price - the price which we are buying
-        sp=0#selling price - the proce which we are selling it for
+        sp=0#selling price - the price which we are selling it for
         maxprofit=0
         for i in range(0,len(prices)):
             if cp>prices[i]:
