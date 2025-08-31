@@ -1,6 +1,7 @@
 
 #https://leetcode.com/problems/backspace-string-compare/description/
 
+
 class Solution:
     def backspaceCompare(self, s: str, t: str) -> bool:
         def func(strs,stack):
